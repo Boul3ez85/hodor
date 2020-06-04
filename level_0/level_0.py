@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests
 
 
@@ -11,3 +12,4 @@ for a in range(1024):
         print("{:d} The request has succeeded.".format(a))
     else:
         print("{:d} The request has failed.".format(a))
+        break
